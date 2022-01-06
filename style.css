@@ -1,0 +1,109 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.faxiable{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+h1{
+    font-size: 50px;
+    padding-left: 5px;
+}
+.high-light{
+   color: tomato;
+}
+.header{
+    border-left: 5px solid rgba(255, 0, 21, 0.952);
+}
+.half-width p{
+    font-size: 20px;
+    padding: 10px;
+}
+.link-button{
+    padding: 15px 40px;
+    text-decoration: none;
+    background-color:  rgba(255, 0, 21, 0.952);
+    border-radius: 5px;
+    color: seashell;
+    font-weight: 400;
+}
+.mission-area h1{
+    text-align: center;
+}
+.mission-content{
+    width: 30%;
+    padding:2%;
+    margin: 0 2%;
+    height: 300px;
+    border-radius: 10px;
+   
+}
+.mission-content img{
+    width: 40%; 
+}
+#mission{
+    background-color: rgba(40, 176, 255, 0.096);
+}
+#vission{
+    background-color: rgba(255, 162, 40, 0.096);
+}
+#goals{
+    background-color: rgba(255, 255, 0, 0.11);
+}
+.develop-limits {
+    background-image:url(images/shapes/shape-1.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size:200px;
+}
+.images{
+    width: 40%;
+    padding: 5%;
+}
+.images img{
+    width: 100%;
+}
+.content{
+    width: 60%;
+    padding: 5%;
+}
+.content p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.input-field{
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid rgba(255, 0, 21, 0.178);
+}
+.textarea-field{
+    height: 80px;
+
+}
+.btn{
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(255, 0, 21, 0.952);
+    border: none;
+    border-radius: 15px;
+}
+footer{
+    background-color: black;
+    height: 100px;
+    text-align: center;
+}
+.footer-content{
+    color: white;
+    padding: 10px;
+}
