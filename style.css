@@ -33,6 +33,11 @@ h1{
     color: seashell;
     font-weight: 400;
 }
+.mission{
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+}
 .mission-area h1{
     text-align: center;
 }
@@ -42,7 +47,10 @@ h1{
     margin: 0 2%;
     height: 300px;
     border-radius: 10px;
-   
+    transition: transform .3s;
+}
+.mission-content:hover{
+    transform: scale(1.1);
 }
 .mission-content img{
     width: 40%; 
